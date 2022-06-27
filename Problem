@@ -1,0 +1,22 @@
+Attached you will find a dataset that contains hypothetical customer funnel data.
+user_id Unique ID assigned to a user
+created_at Datetime that the user completed the acquisition event
+event User has completed step in the acquisition funnel and clicked next
+Outlined below are the key events in our assessment:
+1. -registered: user has created a login (i.e. entered an email and password)
+2. -completed-profile: user has input profile data
+3. -started-application: user has begun the medical questionnaire
+4. -finished-application: user has completed the medical questionnaire
+5. -entered-checkout: user has selected their medication and how frequently they would
+like to receive it (cadences can be 1-month, 2-month or 3-month)
+6. -shipping-info: user has input their shipping information
+7. -payment-info: user has input payment information and/or insurance information
+8. -fully-complete: user has reviewed their order and clicked accept, thereby completing
+the assessment
+Problem
+In order to improve conversion rates, the product team needs to understand any potential dropoff
+points in the acquisition funnel, from user registration to assessment completion. Your goal is
+to identify these drop-off points and provide a reason as to why you believe this type of question
+could result in user drop-off, as well as any suggestions you may have to fix it. How you choose
+to analyze this data is completely up to you. Feel free to use whatever tool you would like
+(Excel, SQL, Python, R, Tableau, etc.) and please show your work
